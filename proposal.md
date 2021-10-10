@@ -5,23 +5,28 @@ For my Capstone One project, I want to create a **Weather App** since the weathe
 *Here I come...?*
 
 1. What goal will your website be designed to achieve?
+<br>
 `The goal is to display weather forecasts around the world and to give the user the ability to create and customize tabs for different cities, and/or preferences on what the user sees when first visiting the website. For example, I want to customize a tab to see Seattle, Washington's weather based on a 7-day forecast, as opposed to a morning, afternoon, or even breakdown, and I want to toggle the temperature unit from Fahrenheit to Celsius.`
 
 
 2. What kind of users will visit your site? In other words, what is the demographic of your users?
+<br>
 `Anyone who is interested in finding out about what the weather forecast will be for that day or upcoming week. As a person who checks the weather everyday, I would assume the user is wanting to travel, or has a long commute to work or to a desired location, city, or Country. The demographic would be anyone between 18 years old and up. There is a possibility that most of the users are female users.`
 
 3. What data do you plan on using? You may have not picked your actual API yet, which is fine, just outline what kind of data you would like to contain.
+<br>
 `The Weather API I want to use on my website is [Open Weather Map API] (https://openweathermap.org/api). I want to the current weather data or a One Call API (get current, forecase, and historical weather data).`
 
 4. In brief, outline your approach to creating your project (knowing that you may not
 know everything in advance and that these details might change later). Answer
 questions like the ones below, but feel free to add more information:
+<br>
 
     a. What does your database schema look like?
-        - User Preferences (i.e. temperature unit from Fahrenheit to Celsius)
+       ``` - User Preferences (i.e. temperature unit from Fahrenheit to Celsius)
         - User Profiles (i.e. user's current location, other cities to save, country)
         - Weather Logs (i.e. date, temperature, city, etc.)
+        ```
     b. What kinds of issues might you run into with your API?
         - Inaccurate information
         - This might be very unlikely, but if the API I'm using has a rate limit, and I've reached a limit on sending requests.
