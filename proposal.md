@@ -23,21 +23,21 @@ For my Capstone One project, I want to create a **Weather App** since the weathe
 know everything in advance and that these details might change later). Answer
 questions like the ones below, but feel free to add more information:
 `
-    **a. What does your database schema look like?**
+- **What does your database schema look like?**
     - User Preferences (i.e. temperature unit from Fahrenheit to Celsius)
     - User Profiles (i.e. user's current location, other cities to save, country)
     - Weather Logs (i.e. date, temperature, city, etc.)
-    **b. What kinds of issues might you run into with your API?**
+- **What kinds of issues might you run into with your API?**
     - Inaccurate information
     - This might be very unlikely, but if the API I'm using has a rate limit, and I've reached a limit on sending requests.
-    **c. Is there any sensitive information you need to secure?**
+- **Is there any sensitive information you need to secure?**
     - The user's password and the API's access key.
-    **d. What functionality will your app include?**
+- **What functionality will your app include?**
     - Search (Search by city, Country, etc.)
     - Add user preferences and profiles
-    **e. What will the user flow look like?**
+- **What will the user flow look like?**
     - Users who do not have a profile set-up will have limited access to customizing their preferences and the website. For someone who wants to use the default settings of the website, they will still have access to the database search function, but they will have to input a city/location every time.
-    **f. What features make your site more than CRUD? Do you have any stretch**
+- **What features make your site more than CRUD? Do you have any stretch**
     goals?
     - The search interface, creating multi-user and user session, edit/add/delete locations or forecasts, customize profiles and user preferences. Goals is to make a simple, user-friendly weather app with lots of design features that stick out to other weather applications.
 `
