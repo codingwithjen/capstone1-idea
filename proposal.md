@@ -1,11 +1,11 @@
 # Capstone One: Step Two - Write a Project Proposal
 For my Capstone One project, I want to create a **Weather App** since the weather is something that greatly affects our lives and it's something that we have to deal with all over the world.
 
-#### Weather-or-Not
+### Weather-or-Not
 *Here I come...?*
 
 1. What goal will your website be designed to achieve?
-<br>
+
 ```The goal is to display weather forecasts around the world and to give the user the ability to create and customize tabs for different cities, and/or preferences on what the user sees when first visiting the website. For example, I want to customize a tab to see Seattle, Washington's weather based on a 7-day forecast, as opposed to a morning, afternoon, or even breakdown, and I want to toggle the temperature unit from Fahrenheit to Celsius.```
 
 
