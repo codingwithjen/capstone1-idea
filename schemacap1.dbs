@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="weather-api" id="Project-22ce" database="MySql" >
+	<schema name="weather-api" >
+		<table name="attribute" prior="tbl" >
+			<column name="id" type="numeric" jt="2" mandatory="y" />
+			<column name="attribute_name" type="varchar" length="30" jt="12" />
+			<index name="pk_attribute_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="city" prior="tbl" >
+			<column name="id" type="int" jt="4" mandatory="y" />
+			<column name="city_name" type="varchar" length="100" jt="12" />
+			<column name="zip code" type="varchar" length="10" jt="12" mandatory="y" />
+			<column name="country_id" type="int" length="2" jt="4" />
+			<index name="pk_city_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="fk_city_country" to_schema="weather-api" to_table="country" >
+				<fk_column name="country_id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="country" prior="tbl" >
+			<column name="id" type="int" jt="4" mandatory="y" />
+			<column name="country_name" type="varchar" length="100" jt="12" />
+			<index name="pk_country_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="measuring_units" prior="measuring_uniuts" >
+			<column name="id" type="int" jt="4" mandatory="y" />
+			<column name="unit_name" type="varchar" length="20" jt="12" />
+			<column name="unit_description" type="varchar" length="100" jt="12" />
+			<column name="attribute_id" type="numeric" jt="2" />
+			<index name="pk_measuring_units_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="fk_measuring_units_attribute" to_schema="weather-api" to_table="attribute" >
+				<fk_column name="attribute_id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="user_preferences" prior="tbl" >
+			<column name="users_id" type="int" jt="4" mandatory="y" />
+			<column name="attribute_id" type="numeric" jt="2" />
+			<column name="measuring_units_id" type="numeric" jt="2" />
+			<index name="pk_user_preferences_users_id" unique="PRIMARY_KEY" >
+				<column name="users_id" />
+			</index>
+			<fk name="fk_user_preferences_users" to_schema="weather-api" to_table="users" >
+				<fk_column name="users_id" pk="id" />
+			</fk>
+			<fk name="fk_user_preferences_attribute" to_schema="weather-api" to_table="attribute" >
+				<fk_column name="attribute_id" pk="id" />
+			</fk>
+			<fk name="fk_user_preferences" to_schema="weather-api" to_table="measuring_units" >
+				<fk_column name="measuring_units_id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="users" prior="tbl" >
+			<column name="id" type="int" jt="4" mandatory="y" />
+			<column name="email" type="varchar" length="225" jt="12" mandatory="y" />
+			<index name="pk_users_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="users_city" prior="tbl" >
+			<column name="users_id" type="int" jt="4" mandatory="y" />
+			<column name="city_id" type="int" jt="4" mandatory="y" />
+			<column name="added_on" type="int" jt="4" />
+			<index name="pk_users_city_users_id" unique="PRIMARY_KEY" >
+				<column name="users_id" />
+				<column name="city_id" />
+			</index>
+			<fk name="fk_users_city_users" to_schema="weather-api" to_table="users" >
+				<fk_column name="users_id" pk="id" />
+			</fk>
+			<fk name="fk_users_city_city" to_schema="weather-api" to_table="city" >
+				<fk_column name="city_id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="weather_daily_forecast_log" prior="tbl" >
+			<column name="city_id" type="int" jt="4" mandatory="y" />
+			<column name="calendar_date" type="date" jt="91" mandatory="y" />
+			<column name="weather_status_id" type="int" length="1" jt="4" mandatory="y" />
+			<column name="min_temperature" type="numeric" length="3" decimal="1" jt="2" />
+			<column name="max_temperature" type="numeric" length="3" decimal="1" jt="2" />
+			<column name="sunrise_time" type="timestamp" jt="93" />
+			<column name="sunset_time" type="timestamp" jt="93" />
+			<column name="last_updated_at" type="date" jt="91" />
+			<index name="pk_weather_daily_forecast_log_city_id_0" unique="PRIMARY_KEY" >
+				<column name="city_id" />
+				<column name="calendar_date" />
+			</index>
+			<fk name="fk_weather_daily_forecast_log" to_schema="weather-api" to_table="city" >
+				<fk_column name="city_id" pk="id" />
+			</fk>
+			<fk name="fk_weather_daily_forecast_log_weather" to_schema="weather-api" to_table="weather_status" >
+				<fk_column name="weather_status_id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="weather_hourly_forecast_log" prior="tbl" >
+			<column name="id" type="int" jt="4" mandatory="y" />
+			<column name="city_id" type="int" jt="4" mandatory="y" />
+			<column name="start_timestamp" type="datetime" jt="93" />
+			<column name="end_timestamp" type="datetime" jt="93" />
+			<column name="weather_status_id" type="int" length="1" jt="4" mandatory="y" />
+			<column name="temperature" type="numeric" length="3" decimal="1" jt="2" />
+			<column name="feels_like_termperature" type="numeric" length="2" jt="2" />
+			<index name="pk_weather_hourly_forecast_log_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="fk_weather_hourly_forecast_log" to_schema="weather-api" to_table="city" >
+				<fk_column name="city_id" pk="id" />
+			</fk>
+			<fk name="fk_weather_hourly_forecast_log_weather" to_schema="weather-api" to_table="weather_status" >
+				<fk_column name="weather_status_id" pk="id" />
+			</fk>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+		<table name="weather_status" prior="tbl" >
+			<column name="id" type="int" jt="4" mandatory="y" />
+			<column name="weather_status" type="char" length="30" jt="1" />
+			<index name="pk_weather_status_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<options><![CDATA[engine=InnoDB]]></options>
+		</table>
+	</schema>
+	<layout name="Default Layout" id="Layout-12e5" show_relation="columns" >
+		<entity schema="weather-api" name="attribute" color="C1D8EE" x="336" y="208" />
+		<entity schema="weather-api" name="city" color="C1D8EE" x="176" y="752" />
+		<entity schema="weather-api" name="country" color="C1D8EE" x="336" y="608" />
+		<entity schema="weather-api" name="measuring_units" color="C1D8EE" x="64" y="144" />
+		<entity schema="weather-api" name="user_preferences" color="C1D8EE" x="304" y="400" />
+		<entity schema="weather-api" name="users" color="C1D8EE" x="80" y="400" />
+		<entity schema="weather-api" name="users_city" color="C1D8EE" x="48" y="608" />
+		<entity schema="weather-api" name="weather_daily_forecast_log" color="C1D8EE" x="672" y="976" />
+		<entity schema="weather-api" name="weather_hourly_forecast_log" color="C1D8EE" x="688" y="720" />
+		<entity schema="weather-api" name="weather_status" color="C1D8EE" x="752" y="512" />
+		<callout x="48" y="48" pointer="Round" >
+			<comment><![CDATA[DbSchema is disconnected from the database.
+New designed tables will be saved to project file and later can be create in any database.
+Right-click the layout to create new tables. Drop this callout from its context menu.]]></comment>
+		</callout>
+	</layout>
+</project>
