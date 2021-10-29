@@ -22,7 +22,7 @@ For my Capstone One project, I want to create a **Weather App** since the weathe
 **4. In brief, outline your approach to creating your project (knowing that you may not**
 know everything in advance and that these details might change later). Answer
 questions like the ones below, but feel free to add more information:
-`
+
 - **What does your database schema look like?**
     - User Preferences (i.e. temperature unit from Fahrenheit to Celsius)
     - User Profiles (i.e. user's current location, other cities to save, country)
@@ -39,5 +39,5 @@ questions like the ones below, but feel free to add more information:
     - Users who do not have a profile set-up will have limited access to customizing their preferences and the website. For someone who wants to use the default settings of the website, they will still have access to the database search function, but they will have to input a city/location every time.
 - **What features make your site more than CRUD? Do you have any stretch**
     goals?
-    - The search interface, creating multi-user and user session, edit/add/delete locations or forecasts, customize profiles and user preferences. Goals is to make a simple, user-friendly weather app with lots of design features that stick out to other weather applications. A stretch goal I want to *try* and accomplish in my Capstone Project #1 is to find a way to alert users over an email that they entered through a form about dangerous road conditions, etc.
+    - The search interface, creating multi-user and user session, edit/add/delete locations or forecasts, customize profiles and user preferences. Goals is to make a simple, user-friendly weather app with lots of design features that stick out to other weather applications. A stretch goal I want to *try* and accomplish in my Capstone Project #1 is to find a way to send a reset password to the user's email that they registered with.
 `
