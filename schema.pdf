@@ -1,628 +1,0 @@
-%PDF-1.5
-%âãÏÓ
-19 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-22 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-24 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-26 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-28 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-30 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-32 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-34 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-36 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-38 0 obj
-<</FunctionType 2/C0[0.8902 0.9451 0.99608]/C1[0.78039 0.86275 0.94118]/Domain[0 1]/N 1>>
-endobj
-40 0 obj
-<</FunctionType 2/C0[1 1 1]/C1[1 0.98824 0.70588]/Domain[0 1]/N 1>>
-endobj
-42 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(https://dbschema.com)>>/Subtype/Link/H/N/Rect[454.3 976 704 970.4]>>
-endobj
-43 0 obj
-<</Name/#23Comment/Contents(Table weather-api.attribute)/Subtype/Stamp/Rect[300.8 789.76 345.6 778.4]/AP<</N 21 0 R>>>>
-endobj
-44 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.attribute)>>/Subtype/Link/H/N/Rect[300.8 787.2 345.6 778.4]>>
-endobj
-45 0 obj
-<</Name/#23Comment/Contents(id \nnumeric not null \n)/Subtype/Stamp/Rect[284.16 771.36 292.93 760]/AP<</N 21 0 R>>>>
-endobj
-46 0 obj
-<</Name/#23Comment/Contents(attribute_name \nvarchar\(30\) \n)/Subtype/Stamp/Rect[284.16 758.56 359.31 747.2]/AP<</N 21 0 R>>>>
-endobj
-47 0 obj
-<</Name/#23Comment/Contents(Table weather-api.city)/Subtype/Stamp/Rect[172.8 354.56 191.2 343.2]/AP<</N 21 0 R>>>>
-endobj
-48 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.city)>>/Subtype/Link/H/N/Rect[172.8 352 191.2 343.2]>>
-endobj
-49 0 obj
-<</Name/#23Comment/Contents(id \nint not null \n)/Subtype/Stamp/Rect[156.16 336.16 164.93 324.8]/AP<</N 21 0 R>>>>
-endobj
-50 0 obj
-<</Name/#23Comment/Contents(city_name \nvarchar\(100\) \n)/Subtype/Stamp/Rect[156.16 323.36 207.5 312]/AP<</N 21 0 R>>>>
-endobj
-51 0 obj
-<</Name/#23Comment/Contents(zip code \nvarchar\(10\) not null \n)/Subtype/Stamp/Rect[156.16 310.56 198.12 299.2]/AP<</N 21 0 R>>>>
-endobj
-52 0 obj
-<</Name/#23Comment/Contents(country_id \nint \n)/Subtype/Stamp/Rect[156.16 297.76 208.13 286.4]/AP<</N 21 0 R>>>>
-endobj
-53 0 obj
-<</Name/#23Comment/Contents(Table weather-api.country)/Subtype/Stamp/Rect[304 469.76 341.6 458.4]/AP<</N 21 0 R>>>>
-endobj
-54 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.country)>>/Subtype/Link/H/N/Rect[304 467.2 341.6 458.4]>>
-endobj
-55 0 obj
-<</Name/#23Comment/Contents(id \nint not null \n)/Subtype/Stamp/Rect[284.16 451.36 292.93 440]/AP<</N 21 0 R>>>>
-endobj
-56 0 obj
-<</Name/#23Comment/Contents(country_name \nvarchar\(100\) \n)/Subtype/Stamp/Rect[284.16 438.56 355.55 427.2]/AP<</N 21 0 R>>>>
-endobj
-57 0 obj
-<</Name/#23Comment/Contents(Table weather-api.measuring_units)/Subtype/Stamp/Rect[64.8 840.96 146.4 829.6]/AP<</N 21 0 R>>>>
-endobj
-58 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.measuring_units)>>/Subtype/Link/H/N/Rect[64.8 838.4 146.4 829.6]>>
-endobj
-59 0 obj
-<</Name/#23Comment/Contents(id \nint not null \n)/Subtype/Stamp/Rect[66.56 822.56 75.33 811.2]/AP<</N 21 0 R>>>>
-endobj
-60 0 obj
-<</Name/#23Comment/Contents(unit_name \nvarchar\(20\) \n)/Subtype/Stamp/Rect[66.56 809.76 119.16 798.4]/AP<</N 21 0 R>>>>
-endobj
-61 0 obj
-<</Name/#23Comment/Contents(unit_description \nvarchar\(100\) \n)/Subtype/Stamp/Rect[66.56 796.96 145.46 785.6]/AP<</N 21 0 R>>>>
-endobj
-62 0 obj
-<</Name/#23Comment/Contents(attribute_id \nnumeric \n)/Subtype/Stamp/Rect[66.56 784.16 122.3 772.8]/AP<</N 21 0 R>>>>
-endobj
-63 0 obj
-<</Name/#23Comment/Contents(Table weather-api.user_preferences)/Subtype/Stamp/Rect[266.4 636.16 353.6 624.8]/AP<</N 21 0 R>>>>
-endobj
-64 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.user_preferences)>>/Subtype/Link/H/N/Rect[266.4 633.6 353.6 624.8]>>
-endobj
-65 0 obj
-<</Name/#23Comment/Contents(users_id \nint not null \n)/Subtype/Stamp/Rect[258.56 617.76 301.14 606.4]/AP<</N 21 0 R>>>>
-endobj
-66 0 obj
-<</Name/#23Comment/Contents(attribute_id \nnumeric \n)/Subtype/Stamp/Rect[258.56 604.96 314.3 593.6]/AP<</N 21 0 R>>>>
-endobj
-67 0 obj
-<</Name/#23Comment/Contents(measuring_units_id \nnumeric \n)/Subtype/Stamp/Rect[258.56 592.16 356.24 580.8]/AP<</N 21 0 R>>>>
-endobj
-68 0 obj
-<</Name/#23Comment/Contents(Table weather-api.users)/Subtype/Stamp/Rect[92.8 636.16 118.4 624.8]/AP<</N 21 0 R>>>>
-endobj
-69 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.users)>>/Subtype/Link/H/N/Rect[92.8 633.6 118.4 624.8]>>
-endobj
-70 0 obj
-<</Name/#23Comment/Contents(id \nint not null \n)/Subtype/Stamp/Rect[79.36 617.76 88.13 606.4]/AP<</N 21 0 R>>>>
-endobj
-71 0 obj
-<</Name/#23Comment/Contents(first_name \ntext not null \n)/Subtype/Stamp/Rect[79.36 604.96 131.95 593.6]/AP<</N 21 0 R>>>>
-endobj
-72 0 obj
-<</Name/#23Comment/Contents(last_name \ntext not null \n)/Subtype/Stamp/Rect[79.36 592.16 131.33 580.8]/AP<</N 21 0 R>>>>
-endobj
-73 0 obj
-<</Name/#23Comment/Contents(email \nvarchar\(100\) not null \n)/Subtype/Stamp/Rect[79.36 579.36 106.28 568]/AP<</N 21 0 R>>>>
-endobj
-74 0 obj
-<</Name/#23Comment/Contents(password \nvarchar\(30\) not null \n)/Subtype/Stamp/Rect[79.36 566.56 127.57 555.2]/AP<</N 21 0 R>>>>
-endobj
-75 0 obj
-<</Name/#23Comment/Contents(Table weather-api.users_city)/Subtype/Stamp/Rect[54.4 469.76 104.8 458.4]/AP<</N 21 0 R>>>>
-endobj
-76 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.users_city)>>/Subtype/Link/H/N/Rect[54.4 467.2 104.8 458.4]>>
-endobj
-77 0 obj
-<</Name/#23Comment/Contents(users_id \nint not null \n)/Subtype/Stamp/Rect[53.76 451.36 96.34 440]/AP<</N 21 0 R>>>>
-endobj
-78 0 obj
-<</Name/#23Comment/Contents(city_id \nint not null \n)/Subtype/Stamp/Rect[53.76 438.56 85.69 427.2]/AP<</N 21 0 R>>>>
-endobj
-79 0 obj
-<</Name/#23Comment/Contents(added_on \nint \n)/Subtype/Stamp/Rect[53.76 425.76 103.87 414.4]/AP<</N 21 0 R>>>>
-endobj
-80 0 obj
-<</Name/#23Comment/Contents(Table weather-api.weather_daily_forecast_log)/Subtype/Stamp/Rect[541.6 175.36 680.8 164]/AP<</N 21 0 R>>>>
-endobj
-81 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.weather_daily_forecast_log)>>/Subtype/Link/H/N/Rect[541.6 172.8 680.8 164]>>
-endobj
-82 0 obj
-<</Name/#23Comment/Contents(city_id \nint not null \n)/Subtype/Stamp/Rect[552.96 156.96 584.89 145.6]/AP<</N 21 0 R>>>>
-endobj
-83 0 obj
-<</Name/#23Comment/Contents(calendar_date \ndate not null \n)/Subtype/Stamp/Rect[552.96 144.16 624.36 132.8]/AP<</N 21 0 R>>>>
-endobj
-84 0 obj
-<</Name/#23Comment/Contents(weather_status_id \nint not null \n)/Subtype/Stamp/Rect[552.96 131.36 644.39 120]/AP<</N 21 0 R>>>>
-endobj
-85 0 obj
-<</Name/#23Comment/Contents(min_temperature \nnumeric\(3,1\) \n)/Subtype/Stamp/Rect[552.96 118.56 638.11 107.2]/AP<</N 21 0 R>>>>
-endobj
-86 0 obj
-<</Name/#23Comment/Contents(max_temperature \nnumeric\(3,1\) \n)/Subtype/Stamp/Rect[552.96 105.76 641.25 94.4]/AP<</N 21 0 R>>>>
-endobj
-87 0 obj
-<</Name/#23Comment/Contents(sunrise_time \ntimestamp \n)/Subtype/Stamp/Rect[552.96 92.96 616.82 81.6]/AP<</N 21 0 R>>>>
-endobj
-88 0 obj
-<</Name/#23Comment/Contents(sunset_time \ntimestamp \n)/Subtype/Stamp/Rect[552.96 80.16 613.7 68.8]/AP<</N 21 0 R>>>>
-endobj
-89 0 obj
-<</Name/#23Comment/Contents(last_updated_at \ndate \n)/Subtype/Stamp/Rect[552.96 67.36 633.13 56]/AP<</N 21 0 R>>>>
-endobj
-90 0 obj
-<</Name/#23Comment/Contents(Table weather-api.weather_hourly_forecast_log)/Subtype/Stamp/Rect[556.8 380.16 704 368.8]/AP<</N 21 0 R>>>>
-endobj
-91 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.weather_hourly_forecast_log)>>/Subtype/Link/H/N/Rect[556.8 377.6 704 368.8]>>
-endobj
-92 0 obj
-<</Name/#23Comment/Contents(id \nint not null \n)/Subtype/Stamp/Rect[565.76 361.76 574.53 350.4]/AP<</N 21 0 R>>>>
-endobj
-93 0 obj
-<</Name/#23Comment/Contents(city_id \nint not null \n)/Subtype/Stamp/Rect[565.76 348.96 597.69 337.6]/AP<</N 21 0 R>>>>
-endobj
-94 0 obj
-<</Name/#23Comment/Contents(start_timestamp \ndatetime \n)/Subtype/Stamp/Rect[565.76 336.16 645.9 324.8]/AP<</N 21 0 R>>>>
-endobj
-95 0 obj
-<</Name/#23Comment/Contents(end_timestamp \ndatetime \n)/Subtype/Stamp/Rect[565.76 323.36 642.78 312]/AP<</N 21 0 R>>>>
-endobj
-96 0 obj
-<</Name/#23Comment/Contents(weather_status_id \nint not null \n)/Subtype/Stamp/Rect[565.76 310.56 657.19 299.2]/AP<</N 21 0 R>>>>
-endobj
-97 0 obj
-<</Name/#23Comment/Contents(temperature \nnumeric\(3,1\) \n)/Subtype/Stamp/Rect[565.76 297.76 626.5 286.4]/AP<</N 21 0 R>>>>
-endobj
-98 0 obj
-<</Name/#23Comment/Contents(feels_like_termperature \nnumeric\(2\) \n)/Subtype/Stamp/Rect[565.76 284.96 683.47 273.6]/AP<</N 21 0 R>>>>
-endobj
-99 0 obj
-<</Name/#23Comment/Contents(Table weather-api.weather_status)/Subtype/Stamp/Rect[616.8 546.56 694.4 535.2]/AP<</N 21 0 R>>>>
-endobj
-100 0 obj
-<</BS<</S/U/W 0>>/A<</S/URI/URI(#weather-api.weather_status)>>/Subtype/Link/H/N/Rect[616.8 544 694.4 535.2]>>
-endobj
-101 0 obj
-<</Name/#23Comment/Contents(id \nint not null \n)/Subtype/Stamp/Rect[616.96 528.16 625.73 516.8]/AP<</N 21 0 R>>>>
-endobj
-102 0 obj
-<</Name/#23Comment/Contents(weather_status \nchar\(30\) \n)/Subtype/Stamp/Rect[616.96 515.36 693.36 504]/AP<</N 21 0 R>>>>
-endobj
-103 0 obj
-<</Filter/FlateDecode/Length 4156>>stream
-xœÕ\Kã¸¾ûWÈ%9´W|S×`ó8A’C€MĞğÚšY'n»c»g²ùõ©úª(ÉnK½é`‹YU™d=Hªø±Hõ¿f¿ş0su•’­>¬f¿ù0ûó¬çªæÿğ4Mûjù0ûæ·¦2Të#U0±NTHÏ?Sô©ÚbiMålÕÄºúğ0ûå·íÇÅÓæXıañÓîéø«ÿ`Eß+‡˜æ9w~¿ûÜî«ånóô°=TÇ]µo«êøcK¿=<´Ûã¡²éÎÔw¶¶¦úÛ/—ûUõíß-løçÌüËïfl[HÕÃ¬1Bm¨>;èÔÁ¦6M¤q‰[6Ö8XÎÔa¡æ~©ç©N†~×çİùÜ€ê¼­«¦±Ò3jtõa¿^l¦?'ëTfxÇæÜ{n¹¶ûŠÌgƒÜhóy²Ş¥¯È|6(6ßø¯kîÀñ“ÇØ¯möÀ¢ñÓ‡~ÿÊæ,Rƒfı¼Îˆz•w^ÍÉ†@’‚ojKOßxŠaÓ+bÏç6T_~^ãïıß+_­^bS¬l°V™rÖSXEQÕfççÿÎ‡ÜïÿN®­fÿ¢.€§ôpÀÙê›¿~4Õ·»êÏTe\ÉÆLJ¢–)§Ñé+Ğ:âŒ7	c´Ü=mûŸî×+Ÿ¾C±Ğèp}Í}J”kêSî7¦^è·D®Ÿõ[_Á¢}¾è¸Ò%Ö° N[ûõOÇV»íç÷“Zü’§ôRQ!yÊï/S'vo/W‹şÜÏÎò°/—^z;'LhZ²£O‡v:9bHÍ¾X{¢R}6$İDt>Sé…¥'å±¾¾Mõ›yLWåÚ\3£¸©—è-¥)Ã½¥6ƒÂ“zÿ3~I¾Ö²ä¹¬Æó³ÌIŸ¯­¥áKã“ëgg¡InŞ`ÚÅái¿Ş~ºÚ®‡ÿÙl|ã©lhN8êÆP>>7CÈK9•OŠëÒUér~Òæ}˜[{1—¯ÎÛvó0gÙ <pP4QÍu~~2™©g‘áUÀ_ñÊH%¢·ûÒ­R[_ÏëFøúøfÑûv—D<ƒ%úÅX]ÑˆÀbWóÛ Ş?3Ä¼\{–;$Ná/º¢+µ{ÁÄó99ğÂKÆ3‘ÙD&hZåˆÙõyÖĞÛÚ°W)!‚<g?ã_{-b\—ŸÜªu5 äF>7«3¯»6ü¥œ¦—qyneø¿´Ú÷íïÇÅñé¥éıÖÇÛòBÌ”©ëá£¨±Ï7Mü¾øÊˆË¼çµúuCÎ[y…™â t}^ÒNx\.G‰Ëm‡®C×øÿï0±jÃ¼£I”°óæ%aúç^O+AíyÈBrÏ@%îP¹æÚ¥yIô\Št¼/Î5,Î`¡H’D5™Â› JT–FdH±s9ã¬BÂÒCB\ÃÙëoPr´) Xx7wTÿÇ¨pì\šó²–ìGQäœ‰2ÆPœd¼Jâ(sÙpÛ""{úM¥ƒ^ÍàØ•Ì‚…u. "”tv4o
-'F0wè×’¦€A7dö›÷g5#Ş§Ñ¨K7¼·±ınöÍŸµûmµ<TßüÉT‡åV4ÅºøPL"†F×ùAÅúsñCT–F±®Š<G¥†¬Áö÷-Ï[¼¿gÉ½$2OpiÍJz“i¬ûğÇZ;šy‰,D–ËŠñ¤Z–j˜9×Ì	r:A‰öÖR<ÿÃ›FM{EèĞ"ãÕ ¢å†J=6ß.Ú[êb _…ô™Ñ.Î €õ\ƒÚ0áf†#´q†GRHo,AØ`…É£WU,‰ŸKH· ù&a:0ü&„ä÷‹)Ì'Tj#6¤Ø9*Î™Ì‘ÀØ„8g£„c“aÉ~.r,:& ŠGÆ!bNE0„L•Hz©š…cW¤„5‰«ˆÂXiN4o:F©1wè×ˆ8÷şÆö<ÎYÄ9h2Qı`ªóƒADMñƒ¡ÍÛùaÄA‰ÊÒˆq­ÚÉsTjDl¡^Šsp` Æn‡8VH2›t+Ä¡³Õn„8Óp¼±µ™â0»ŠF‡8Qirè±èÄèÕÚş8¦ï¨Kb˜Ö%&JôüÏú±ZîV“Í‹çÁwl¿PP»L0NßôCŠ§|ë:ä†È)r=rrvp'ØÁ)vpvpCìà;¸;¸;¸¹ä¹iøÖà[wŠoİ ßº!¾u'øÖà[w‚oİ ßº|ëNñ­à[7Ä·îßº|ëNğ­à[7ß¾¯±=û®Ã·®Ã·nˆoâ[×ã[×áÛ7ñ£Ã·îß:Å·n€oİ|«^ğ±èÖC·n*ºu¯D·îõèÖ)0-!îØÖ=mù:À†ºE` `ydDI)6•%+Jğ‚4Êœ¨¬k<—,<#E1­™¾´ Å‚ˆ„,'¢Lê³jß¨Ğ–8F$DøÃ{kÅ‹¶–ÌF‘ Oa¼Äá²bÓÂ	”äcYHz)Š…!/›„‹h¨´``0¢t£Œ˜#­“nê;FD´w3’çÌ#±ëÕü,Ç–j	1°Ï¦b~Ö|ó3à0¢Lëó©ÂÅşføÊâ®¡Üb¤—ôÕáVcSêÑX¶F,µ™^¹'zF‡0hL€4ö}2xåÉ¬í' CÑ›R¯wÕ–ûõãq½ÛNU¯b&«æ¥sÜ]Bz2ÚÂù‡x$³.âÌğÒî›¦¬üÖs¡ò`åçã>\Šiøİbé‡ŠI˜a ¢„F`
-ø	À©Qè"Ø©tÃÏqè8Ï7a€N…ëĞ©°:}“{tû)§8³pÍ ’/:z©š…cW‡…P©"
-£˜V8ÅÏ
-œ…¥‚œ›¿
-=¾»±=êAĞ)kŠYıÀ‡Å¤¨Æ'Óù$ùf~ ñ
-e~°!ÅN S®Á†Ø¿€N;¹Ápÿ¸o?¶ûv»lGxVN:ÛÏç`*›3¨v¦Z=A·Å7+FÕpeS|¬ŠbwıšÄåÎ½Z¹5·/,Œ1Á¼vù•8çRD¦Kç(Ÿ™â6æ•Ñ¹ºœá¶f´P¨­xÊ²$™ÑrøˆØ•ùÜ¿ú^P­‚7 ¡Èá€<FEÛÌIR%`dË%”˜`ÄKÁ¦Ê$IW‚máĞVEHé%ØBq‰µÙö¡65}¤UZ-QºQF6Z‹FÙw3’ç±5"¶æ¬¡JZ‹%QlÖ8'd|ó%ªöq\ë“jOD.f›näy‰§wÂn‡Q ­Q”-D›fC§Dtà0zãäkvŞ(»4Ä~\ï“á4tÏâÙkæ™ÑÙq1OƒğfñJë´ıHëêÑ	±®–üMû°Xo¦ZVÎ¡óëœGoË`™Ï²-{\_vû›“îÌ¸ÒüJŠ'Èñ
-ÜDB zÖC/e¬+ÛH  ‰@K†”$û´§ Y’dCÔa0%?ès—SÌšäÍ¸€Ø\”…îPMíµbäo²Z’8\”CKôà§€'œ*#à[¸’¼VN2Ï*BrÒ"½$¯Cä®Cİ§®}ê3×BkâŒíö.`Ğ.èI*ÖÀŞŸ+Ö»Éó+aÅ
-QSÕPŠTu±„³Á±KU™ßÆ|ÉRƒp½ùlÚÇÑË/·V¬˜»µ@íqÇ“¤rTŠš­Ÿ¡FÎ¨$¨§#tå0M}¾¯{aoæ¨Ø;:ŠöâÚé'ÊFï D­‘%±Zµ«ûI‰"(Öæ¿¸ŒÁ1ó=LşLÓ$Á¦ˆÙ	o\ŞéÌV@Œ ªòù¿ÊK+–„£ôˆ#T¤7ƒ¼?¸ã(õ™âW	ß›±ĞM!££	lè¬‹#`øDPøEOeÙ`„DåÉ|J€í8İ€ÍÚ±×I5‰Ê,W¤	­¢ÙHÉKç|;6ÒZè¬LV›(›¤"¨¥'^ˆÉïndÏcsFlF…\œÈ²í‹ùõÿÜöºî‡fçJmBÊ=ÁŞ¶¼ÑÉUØá¼Ÿî?îöí’éf÷iLòÏİîlœÛÙ÷tZíVhkäº×Å6ŒÌ@ÛÍ ­~x;ÊAµq~8Ñ‹M»]-¸«SÀ>ÜQ«1ƒÂßGæ‰6†ğüÅè	½>Ğ;~E’æ¤ÖÛûcûğØîÉ‚ıä~R)¿¡ê³ìõÿş9êUÊtõ¦–É~xÚî×‡öş¸´!”ˆª2®L’[ÚMS´Úãë”›ggè-å.ôá§G~;V÷‹ãdTÌê
-¨häîí,ÙŠÈÂ+3Å¦ -"7Q¹.¡$¡#øƒ –„ƒ İ"9ç3¹X	éè3¤o„•Úˆ)vCØ1œ—À1^öõöOn°²Kö£‹wal¤„³Qvk…CRQEXœıˆt¡—ªY8vZ¶i`#vh*¢0²1N4o:F©1wè×XñîÆöW4‚+X“Ïê‡Å!|1É‹ñVv`BÆ7ôƒ¥o”2?Øb'À†ZÊ·
-^Djñp…ùq÷´Ÿ81¬½™Æ„evt3áÉº±‰ÌaìÁàóıÌóà~ñèD¦fÒ+‘Ğ™¶Ñk²êÕû»„ö²*õğ8µwTÊ„•AÔ—»¸„š^­¼Èœ°9½ÿVã_”¤¡Ş‰ƒTnö¾µ°òğìô½¡ºdØÛvs¸ß¬ÿI¸¥İ¿ÚwúËw|C³®58z|Ä®qùˆÓ•àèù3u„D=3Á‘Ì³Ü‡à#3½ÿ¹™¥º/œBÿ)S(ÇZ êŒš¶¨,øŠÚ9î^à¥Ğ5Í`®[À…•uÙ×¶_À}¸×¥¸pi°€Ëµ‘.ôR5Ç®øÁ—y÷/ôã;e¬¶WK¹p0JEˆ¹C¿Æ\Ç{wc{ñ]-ó¸BˆÅ¬¡Å&b`ih:G°Ú¾™#@ Deiä‹9ä‘Ôˆ7¯è%ÚW±ÌËPw;®&ÜÎõîæ7&0Æ>E#›X®Ÿş	zÕ½âUi¯m–'F»"dÙµ;›TòY&½(!æá_Š&ÄrÈ‘'£³ ø>&½hLdĞ˜ıœ“IÀ7sÕàÆ+(ï¹¶6j_½µxâ” A¢Ì'Ñà•(-˜ÂU_Cğ„(“úlÚ·œıºïKı{AÑñßşE5‰'¦h}¨VëÃr·İ¶KÚV÷»üU5Ú!.~XÚùÕ¿ÍÆ€æº,il¿T«ö°ş´%ÔjÓª/ëÍ¦ú¡­‹Ïüã®zÜïşA*ªëM[-¶«jC[Ğ}µ\l¹ÚrOÃÜVë-ıtSw¦İ‹şeıéÇãİr³^şfoğ÷äX¡ŠÜ’qbÓ¼úv¿{¤Zäór±Ùp=¸»>Ò»í±ı÷±zh·O½Ú“¿¼ô_$FvÆ
-endstream
-endobj
-105 0 obj
-<</Contents 103 0 R/Type/Page/Resources<</Font<</F1 18 0 R>>/XObject<</Xf1 1 0 R/Xf9 9 0 R/Xf7 7 0 R/Xf8 8 0 R/Xf5 5 0 R/Xf15 15 0 R/Xf6 6 0 R/Xf14 14 0 R>>/Pattern<</P1 20 0 R/P2 23 0 R/P3 25 0 R/P4 27 0 R/P5 29 0 R/P6 31 0 R/P7 33 0 R/P10 39 0 R/P8 35 0 R/P11 41 0 R/P9 37 0 R>>>>/Annots[42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 76 0 R 77 0 R 78 0 R 79 0 R 80 0 R 81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 92 0 R 93 0 R 94 0 R 95 0 R 96 0 R 97 0 R 98 0 R 99 0 R 100 0 R 101 0 R 102 0 R]/Parent 104 0 R/MediaBox[0 0 755.2 992]>>
-endobj
-107 0 obj
-<</Filter/FlateDecode/Length 1104>>stream
-xœµ™O“£6Åï|
-=©ŠCë˜C.[›İÚ$UÉn|œ*—×Æ»c<Ëà$“OŸÆÆc$£”P =ZRÓO?ó-z3T,fRŠù:ŠÅ÷”Ø“Ş‘ ¾´‰&oóÍòpW‹_—ûC}3ÿÂ­â¶±±Ç‰x~‘´ÒYßµŸæÑÇè[ÄOá_µµ1¤©FA3QåÑ&Š§™‘™—Ç¶5·T³)q{ímŸ4m©ÍTê£HMõ±OBÓdP‹R8,î‡eû a%³ì8·mk;÷RüÌòÏâæìKDS#şf%îÇ‹OµÊ¤=&ZqÇOï#“»LS>ìÚ%³çwÑ¬øÑæ	›$”â›œJ»N*õ	sˆ“ùòó].–u]Ÿu~Ì¨­M“®¨iBgÑ¸YÅ$e|“ŠŞˆ~'~ÿz])›™GÄŠuOPdì‚ Råa—WÅÊšN‡ë§mQ.w}sw‘ıkY­ş\V·ßŞô¯/õ¥dï2(×ù?ùC¿eÃãó,."uÿuñ4‰•Ft{¥x¨±>o¿İ×Å¾ìŸ·$Ò//·E™ÿø¡,÷oßt$Ÿ—ãÄP©Ğºg» u¯éÔ=“Á.a» a5}°Ø%l8¬s	£28,îbâd:?ƒ(”q†¨=¿îD‰Ñ¨­Šú±ÿmS@	ğ™$æ.M˜TY;Ã’/ËS¯–-¯÷@Šgï¡Øe>	!Ûçx¥‹{±Ú¯İÃE;Ãíí1L“¾ÚÊºzô$Ù›5¼fp'`’`;HŠwM6{æ‘tlŒ6ïöU^lKñKşØ3oíx5y›v¼m®ˆÛ‰xJq{ÃUz#:7›‹ıã‘/siô¦ÆĞË|zå¦FCŒ©qÆÔ#SƒŒ©qÆÔ#SƒŒ©Â1¦î0¦v1¦Æ³ÍåŞ¬Ó!	s—LÊmîÁÀS9ğù;$:ĞßuH¸Ôáà’²–2È‰!U‡«èh©Â£¥‚ĞRáh©F ¥ÑRâh)G ¥ÑRâh)G ¥ÑRâh)Q´”áĞRuĞR¹ĞRáh¹Ë—‡ª(·‹CYÔ/$eBbî*…I¹H!Lh§ËëBâÙ…¤»sMœëüaUMmu†;’=ñJ„é†şó	‰:ÿãæì–!aQ†ƒEHŠıâmöMa n”ÿ7J/‡~Î#Ë‰İ¤:aä³n”!AR†I‚@’p¤ I H^×0İ­/ğÎó=€àÏ„¹½R¡Ì:´I.Ú$œ6yµ¸çäÏ«¼\9J…ÄNHÌ†è«[ ÇóiÜ§MO€ˆè€ï¯t<{õ0€¤}6JWq´Òni£Ûèå{²”•ÈC<‚R\áÜW[j
-då¦o¬[¢?Yéù†ÃFOß—^B0Woÿ96@WÂ±ÏxùºB¹¸ãßf¨WıQòš¥¢
-endstream
-endobj
-106 0 obj
-<</Contents 107 0 R/Type/Page/Resources<</Font<</F1 18 0 R>>>>/Parent 104 0 R/MediaBox[0 0 595 842]>>
-endobj
-109 0 obj
-<</Filter/FlateDecode/Length 1282>>stream
-xœ­ZMÛ6½ëWğ¸[¤*?õqè%h¤=´i}4 ¨6íUÖ–Iîîşû’²dÄµEò9†5aißCÎr¿Fïg‘ $ãœÌ–%?Ê±Á9¶ÒlhqÙ·~EŸ£¯#öÓ¬{ *‰’Š°Œ4:ZõÏ9ùÍ}4-Ú·¾D,Vä%¢1Ï%ã„ÆRäÜ~'R0Işú©TY¨Ø|mXÛŞDÄÏ–,#Ô|Â<LÉlıôÁĞ0¬W“À†âÃ¬üg£É¡ÕM±oôJ7º^èöqöÅ[[¾Åæ$Íù	›ØÔ€LÎò„Ùo¡xŞcëz]ÕúçOu½ûåı7çC”*~6D4Î€$ÿÿŞæ’ˆ,fæ}é}?é_´&\ª˜Ù&by´IXœ™P’ä	JËš ´z„V’Ç6ìmIÏŞş`5“z
-Ö¡}=XS¥n	VG„'‚#ôòçóu¤”ö¡ƒ€UË	RLÙˆ‚ ênÚA :½CVUÓvE]nµÓK²Ó¯7°Ó¸İD6eˆ—¢ÓË$Ïîä%„¤·eµqy¡ı[6‹§²™?0JçÓ¾fò^¾"Hû²m_vsqB€'w…ÓÛôr½OnlŸê¥~u¤İDËÊ½¥APûç¢ßm÷ŞaNB7ååºš³?ö]µ«cÆ‘$UT–RE%ÕÖÕ½ 	”à€&P£€z[¦°²&Š&qÜ‡Ìî¥RÌ|TÊĞ¾®RTÎnR)Å¢êŞ&#T¥H&÷H,dQC€.Á¢$“ûÜDÀìèû¼Dğ&½¸I`Ç)—K½,vµ“èœq™ßnNFŠJÖ3›Ô)õÓÂüø¸Ã†Ûí*|4?ì]­kò»~›ÒãPH¤²^]™?Ñ24{ãŠœô?9{OH;ïİş±}£6ö=şìèÚ¥L€Àôe|©€éËø’Q ã‹Œ£éÏš ¿·2¾Pğ™‰5i)ìÌDpX,X˜ÇÎL¸)}@ZÖ¥ÕÛ ´RXMZ˜VŠ©I.á·&âãLŞKñ™õ|R|Cûºâ“L ŠïE—İ“nŠ¥©­ßŠ•Ù÷ö0a³[OîX*ÿ=ÒFK}¨ğ÷y‰€-Ê®—¥“Îy¢¡:ÀŒ³WêşÛN9 ¤1øÚ®ì>]!{D¯@jÿmUŞîucX6îApëÃV7Õbş Ş1·ĞW¦é–¯Át\€.rˆÑê¦juÑUîãKÔ‚™ Úî4°|ÍVw~–fK
-„}|ØÛµ¾,Ê©ÍíÈÁun<*_ÆS $İ›.eê´éTX‰§ ®…úMİ°Û›aQ—ÑÿİÕ—@°®\t[)5°@ :YŒl·©eäuşÀ_ìqD·¯Øãôî7Ñ,An¢™€«*k‚
-òŞäŒÂU•5iQ¬ªJá¢*Åkª+©¶9¿WbÂìTƒíë5Kà»ñqI>íMhÂcŸ<‡ÀÜ*ƒrÔLÜëÆB
-(± <gØÍ–İ%˜C5\›y§…İ@”BsË@šª›¦	™ü^WÕTÃ!ÀÈÉ€uX!áÕP‚ü¿ŠÖ›¶ØTÏ¦ÒMişDš;®³}j^ áí;A¹IË_I)¾cäühúº…Wzı?¥
-endstream
-endobj
-108 0 obj
-<</Contents 109 0 R/Type/Page/Resources<</Font<</F1 18 0 R>>>>/Parent 104 0 R/MediaBox[0 0 595 842]>>
-endobj
-111 0 obj
-<</Filter/FlateDecode/Length 500>>stream
-xœ­UMSÛ0½ëWì1t¦®¾ezaÚ2pZ3ãq913”ÏÊ6ih*Çb¤H»oßîj_ÈiJ…˜sH—„ÂçXÖ}OÉ5y Ü×¬:c*AI,†Æ’‚Ğ(Q<‘ğïÚ[£AÄC{yÔ^w†ÎEQÅ“|\÷ŒkÇ˜Ã¦q†;Úín‹<!ú1R$Ü­Z
-tüyF”Q.¹—»!Q·ß_ˆxíJÅ€âÇ@¼4Ş‘/?°0X©ÂŒgiş{cáÉæíÚ6Ùº~l6ÏYQ7v‘oÛlS¯NÒä¸råŞchW„ï"Ñ!Å³D3·
-¬F©¸ÍFÂÀ|‹²}ÎÊ%ÌO°XE÷Ów'£4LüQ4^ï\ÜW³m›·Û=bo/PŒ–ü¼¹¼oËºÚúÁ¬­Vee¿WUıítòíØš>6:æ¡cã\¸TŸ66LD²÷Ñ,Ò'M+L]‚i9ŸZ\” `›v0ìÿ/ †‰÷
-@ÿ¤½O'“ö	®nÇÆ6¬\zH1åºUµ£´âÃiõbMª[O1v±Î›ùLĞQÑæP¼M>¯–öé«ÒÓÉéjÔı_1Ş©ìhCÀ½P˜¯<üãz·"kğø|Šü•ÿF
-endstream
-endobj
-110 0 obj
-<</Contents 111 0 R/Type/Page/Resources<</Font<</F1 18 0 R>>>>/Parent 104 0 R/MediaBox[0 0 595 842]>>
-endobj
-112 0 obj
-[106 0 R/XYZ 30 818 0]
-endobj
-113 0 obj
-[106 0 R/XYZ 33 788 0]
-endobj
-114 0 obj
-[106 0 R/XYZ 33 666 0]
-endobj
-115 0 obj
-[106 0 R/XYZ 33 488 0]
-endobj
-116 0 obj
-[106 0 R/XYZ 33 366 0]
-endobj
-117 0 obj
-[106 0 R/XYZ 33 188 0]
-endobj
-118 0 obj
-[108 0 R/XYZ 33 767 0]
-endobj
-119 0 obj
-[108 0 R/XYZ 33 603 0]
-endobj
-120 0 obj
-[108 0 R/XYZ 33 425 0]
-endobj
-121 0 obj
-[108 0 R/XYZ 33 177 0]
-endobj
-122 0 obj
-[110 0 R/XYZ 33 725 0]
-endobj
-18 0 obj
-<</Subtype/Type1/Type/Font/BaseFont/Helvetica/Encoding/WinAnsiEncoding>>
-endobj
-1 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 36>>stream
-xœ3P°PÈå24R9\Á\`®…‚	g¡`h¤œ¸ }[°
-endstream
-endobj
-2 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 8>>stream
-xœ    
-endstream
-endobj
-3 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 8>>stream
-xœ    
-endstream
-endobj
-4 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 88>>stream
-xœMNÁÀ û3…p…³ˆs8‚ßºÿ·4Øk?$„ ñâe‘XÀEƒä`í)uVËòN'·º›“›¤	Ìc
-ÊÖ“>kîÿN=»ƒ¼ÔH¿¡næt›
-endstream
-endobj
-5 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 100>>stream
-xœ-» !sª ‚}â±+Áô®ÿôx«‘¬0¡¡Ÿ˜çóÊ#^Ù!,TWÇXjué@k·t”y‹†2N˜9%8fWæ¦ï¤-ÜJæ%&ïñ)ÔÓ"¨•…Uêı!, x
-endstream
-endobj
-6 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 42>>stream
-xœ3P°PÈå24R9\Á\¨\ ×BÁĞÌR >‚
-  oy›
-endstream
-endobj
-7 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 38>>stream
-xœ3P°PÈå24R9\Á †	oæ9†F`a¨(” =	ø
-endstream
-endobj
-8 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 59>>stream
-xœ3T(ç2Tğâ,.=sSC=SK¥äÎe¤`h¨Ëe¢`©ÃäZ‚y@A {Ë
-endstream
-endobj
-9 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 169>>stream
-xœE=Ã FwŸÂ'°0ØÖ,•:ö
-*UéÒ¡¹~?C›ğğ™?çƒ”¯hJÒZvç$U½v0[K•o,uÏİ0µ-tså×Teá&ŸS»ô:»seÈF.fÓ‹|#!‘Ø(lF÷›ntFGñ›Y¹’U7Hœñ¢LKüÆ	ÜÇI	>MGŞ¤Ã¢Â%sìV8RõË¸MWüÕA”:û
-endstream
-endobj
-10 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 127>>stream
-xœEAÃ0ï¼‚ À6Ô/¨ÔcòßªæœïÇà6=À®¼³H|à˜ÌÔ2•âÊ·'<gês@¥†1ØAW2ñàMšõ©Z-Š"ô@ÏVÚNİÖº“4Õº|¡/&ˆáÈõ{p£YşŸYÍ}şì„öÅ*‹
-endstream
-endobj
-11 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 149>>stream
-xœEKÃ0D÷œ‚ 0Ä'¨Ôe|ïªdëp“.O03HÎø†ŒH$R´a¢ZµxO=Ü_ ¤ØhÃ3¨SÃ7›0àŞmÄA>«xY¢¿Ø®emì€_Ü¤[/¬IüTÎ– á
-ìÔe•g0¡óâJ?‰ƒ+&8… Ê=÷>á‘†ù³œÃşâ‚/[¯4 
-endstream
-endobj
-12 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 81>>stream
-xœ3Tğâ2TÈâ2Ğ³4473U0Ğ³°414Ò&FÆ¦
-Eé@)sc  
-™™›€”[)¹s™*˜*aQ*—ĞCÇ™ â%w
-endstream
-endobj
-13 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 80>>stream
-xœ5‰«À0¹§xD¶ãOBK*v‡ªRaö5):İ`‘à%ne¸ç°bÚdÅuÖòÑ+Móâ4ì‡CÇ¾é … ù ÜÍØ
-endstream
-endobj
-14 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 76>>stream
-xœ3R(ç2Tğâ,.=ss#SS=3CS3K mdbn`¦ä”2U0RÈå2S°²r¸‚Á"¦@œ•Ëá2V0‚Ê øoŞ
-endstream
-endobj
-15 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 73>>stream
-xœ3R(ç2Tğâ,.=cS33=SS mn`i¡ä”1U0RÈå2S°²r¸‚¹Œ´#ÄÌÌÁ2†@É­l
-endstream
-endobj
-16 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 25>>stream
-xœ³P0PÈå24S ¢.•Æ 4a
-endstream
-endobj
-17 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 16 16]/Length 25>>stream
-xœ³P04SÈå
-9\`2 /â*
-endstream
-endobj
-21 0 obj
-<</Subtype/Form/Filter/FlateDecode/Type/XObject/Matrix [1 0 0 1 0 0]/FormType 1/Resources<<>>/BBox[0 0 1 1]/Length 8>>stream
-xœ    
-endstream
-endobj
-25 0 obj
-<</Shading 123 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-23 0 obj
-<</Shading 124 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-29 0 obj
-<</Shading 125 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-27 0 obj
-<</Shading 126 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-20 0 obj
-<</Shading 127 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-41 0 obj
-<</Shading 128 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-39 0 obj
-<</Shading 129 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-37 0 obj
-<</Shading 130 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-35 0 obj
-<</Shading 131 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-31 0 obj
-<</Shading 132 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-33 0 obj
-<</Shading 133 0 R/Matrix[1 0 0 1 0 0]/PatternType 2>>
-endobj
-129 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 550.4 0 537.6]/ShadingType 2/Function 38 0 R/Extend[true true]>>
-endobj
-133 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 473.6 0 460.8]/ShadingType 2/Function 32 0 R/Extend[true true]>>
-endobj
-124 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 358.4 0 345.6]/ShadingType 2/Function 22 0 R/Extend[true true]>>
-endobj
-127 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 793.6 0 780.8]/ShadingType 2/Function 19 0 R/Extend[true true]>>
-endobj
-126 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 844.8 0 832]/ShadingType 2/Function 26 0 R/Extend[true true]>>
-endobj
-123 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 473.6 0 460.8]/ShadingType 2/Function 24 0 R/Extend[true true]>>
-endobj
-125 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 640 0 627.2]/ShadingType 2/Function 28 0 R/Extend[true true]>>
-endobj
-132 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 640 0 627.2]/ShadingType 2/Function 30 0 R/Extend[true true]>>
-endobj
-131 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 179.2 0 166.4]/ShadingType 2/Function 34 0 R/Extend[true true]>>
-endobj
-128 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 928 0 868]/ShadingType 2/Function 40 0 R/Extend[true true]>>
-endobj
-130 0 obj
-<</ColorSpace/DeviceRGB/Coords[0 384 0 371.2]/ShadingType 2/Function 36 0 R/Extend[true true]>>
-endobj
-104 0 obj
-<</Kids[105 0 R 106 0 R 108 0 R 110 0 R]/Type/Pages/Count 4/ITXT(1.3.26)>>
-endobj
-134 0 obj
-<</Names[(Default Layout) 112 0 R(weather-api.attribute) 113 0 R(weather-api.city) 114 0 R(weather-api.country) 115 0 R(weather-api.measuring_units) 116 0 R(weather-api.user_preferences) 117 0 R(weather-api.users) 118 0 R(weather-api.users_city) 119 0 R(weather-api.weather_daily_forecast_log) 120 0 R(weather-api.weather_hourly_forecast_log) 121 0 R(weather-api.weather_status) 122 0 R]>>
-endobj
-135 0 obj
-<</Dests 134 0 R>>
-endobj
-136 0 obj
-<</Names 135 0 R/Type/Catalog/Pages 104 0 R>>
-endobj
-137 0 obj
-<</ModDate(D:20211027191118-06'00')/CreationDate(D:20211027191118-06'00')/Producer(OpenPDF 1.3.26)>>
-endobj
-xref
-0 138
-0000000000 65535 f 
-0000018429 00000 n 
-0000018619 00000 n 
-0000018780 00000 n 
-0000018941 00000 n 
-0000019183 00000 n 
-0000019438 00000 n 
-0000019634 00000 n 
-0000019826 00000 n 
-0000020039 00000 n 
-0000020363 00000 n 
-0000020646 00000 n 
-0000020951 00000 n 
-0000021187 00000 n 
-0000021422 00000 n 
-0000021653 00000 n 
-0000021881 00000 n 
-0000022061 00000 n 
-0000018340 00000 n 
-0000000015 00000 n 
-0000022685 00000 n 
-0000022241 00000 n 
-0000000121 00000 n 
-0000022472 00000 n 
-0000000227 00000 n 
-0000022401 00000 n 
-0000000333 00000 n 
-0000022614 00000 n 
-0000000439 00000 n 
-0000022543 00000 n 
-0000000545 00000 n 
-0000023040 00000 n 
-0000000651 00000 n 
-0000023111 00000 n 
-0000000757 00000 n 
-0000022969 00000 n 
-0000000863 00000 n 
-0000022898 00000 n 
-0000000969 00000 n 
-0000022827 00000 n 
-0000001075 00000 n 
-0000022756 00000 n 
-0000001159 00000 n 
-0000001276 00000 n 
-0000001412 00000 n 
-0000001535 00000 n 
-0000001668 00000 n 
-0000001812 00000 n 
-0000001943 00000 n 
-0000002059 00000 n 
-0000002190 00000 n 
-0000002327 00000 n 
-0000002474 00000 n 
-0000002604 00000 n 
-0000002736 00000 n 
-0000002855 00000 n 
-0000002984 00000 n 
-0000003127 00000 n 
-0000003268 00000 n 
-0000003396 00000 n 
-0000003525 00000 n 
-0000003663 00000 n 
-0000003809 00000 n 
-0000003943 00000 n 
-0000004086 00000 n 
-0000004216 00000 n 
-0000004353 00000 n 
-0000004488 00000 n 
-0000004630 00000 n 
-0000004761 00000 n 
-0000004879 00000 n 
-0000005008 00000 n 
-0000005147 00000 n 
-0000005285 00000 n 
-0000005427 00000 n 
-0000005573 00000 n 
-0000005709 00000 n 
-0000005832 00000 n 
-0000005965 00000 n 
-0000006099 00000 n 
-0000006226 00000 n 
-0000006377 00000 n 
-0000006515 00000 n 
-0000006651 00000 n 
-0000006794 00000 n 
-0000006938 00000 n 
-0000007084 00000 n 
-0000007229 00000 n 
-0000007365 00000 n 
-0000007499 00000 n 
-0000007631 00000 n 
-0000007783 00000 n 
-0000007922 00000 n 
-0000008053 00000 n 
-0000008189 00000 n 
-0000008328 00000 n 
-0000008464 00000 n 
-0000008610 00000 n 
-0000008751 00000 n 
-0000008903 00000 n 
-0000009044 00000 n 
-0000009171 00000 n 
-0000009303 00000 n 
-0000009443 00000 n 
-0000024435 00000 n 
-0000013669 00000 n 
-0000015622 00000 n 
-0000014448 00000 n 
-0000017093 00000 n 
-0000015741 00000 n 
-0000017781 00000 n 
-0000017212 00000 n 
-0000017900 00000 n 
-0000017940 00000 n 
-0000017980 00000 n 
-0000018020 00000 n 
-0000018060 00000 n 
-0000018100 00000 n 
-0000018140 00000 n 
-0000018180 00000 n 
-0000018220 00000 n 
-0000018260 00000 n 
-0000018300 00000 n 
-0000023755 00000 n 
-0000023412 00000 n 
-0000023870 00000 n 
-0000023642 00000 n 
-0000023527 00000 n 
-0000024211 00000 n 
-0000023182 00000 n 
-0000024322 00000 n 
-0000024096 00000 n 
-0000023983 00000 n 
-0000023297 00000 n 
-0000024527 00000 n 
-0000024934 00000 n 
-0000024970 00000 n 
-0000025033 00000 n 
-trailer
-<</Info 137 0 R/ID [<6a0ae0d2039444a98aadf99888590286><e25a10577406564354dccb88cf97e1db>]/Root 136 0 R/Size 138>>
-startxref
-25151
-%%EOF
